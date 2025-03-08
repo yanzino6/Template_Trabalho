@@ -1,0 +1,326 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: YanSimmer
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA YanSimmer:
+ - Diretório Resultados/YanSimmer criado com sucesso!
+ - Diretório Resultados/YanSimmer/main criado com sucesso!
+ - Diretório Resultados/YanSimmer/completo criado com sucesso!
+ - Diretório Resultados/YanSimmer/fila criado com sucesso!
+ - Diretório Resultados/YanSimmer/ticket criado com sucesso!
+ - Diretório Resultados/YanSimmer/software criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/YanSimmer/fila.c' não encontrado!
+ - Arquivo esperado 'Respostas/YanSimmer/fila.h' encontrado!
+ - Arquivo esperado 'Respostas/YanSimmer/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/YanSimmer/software.c' encontrado!
+ - Arquivo esperado 'Respostas/YanSimmer/software.h' encontrado!
+ - Arquivo esperado 'Respostas/YanSimmer/ticket.c' encontrado!
+ - Arquivo esperado 'Respostas/YanSimmer/ticket.h' encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/YanSimmer/main
+ - Copiando os Includes/fila.h Includes/software.h Includes/ticket.h do professor para a pasta Resultados/YanSimmer/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/YanSimmer/main
+ - Removendo o main.o do professor da pasta Resultados/YanSimmer/main
+ - Copiando o Respostas/YanSimmer/main.c do aluno para a pasta Resultados/YanSimmer/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/YanSimmer/completo
+ - Copiando os Respostas/YanSimmer/fila.c do aluno para a pasta Resultados/YanSimmer/completo
+ - Copiando os Respostas/YanSimmer/fila.h do aluno para a pasta Resultados/YanSimmer/completo
+ - Copiando os Respostas/YanSimmer/main.c do aluno para a pasta Resultados/YanSimmer/completo
+ - Copiando os Respostas/YanSimmer/software.c do aluno para a pasta Resultados/YanSimmer/completo
+ - Copiando os Respostas/YanSimmer/software.h do aluno para a pasta Resultados/YanSimmer/completo
+ - Copiando os Respostas/YanSimmer/ticket.c do aluno para a pasta Resultados/YanSimmer/completo
+ - Copiando os Respostas/YanSimmer/ticket.h do aluno para a pasta Resultados/YanSimmer/completo
+ - Pasta fila:
+ - Copiando os Casos de teste para a pasta Resultados/YanSimmer/fila
+ - Copiando os Includes/fila.h Includes/software.h Includes/ticket.h do professor para a pasta Resultados/YanSimmer/fila
+ - Copiando os Includes/*.o do professor para a pasta Resultados/YanSimmer/fila
+ - Removendo o fila.o do professor da pasta Resultados/YanSimmer/fila
+ - Copiando o Respostas/YanSimmer/fila.c do aluno para a pasta Resultados/YanSimmer/fila
+ - Pasta ticket:
+ - Copiando os Casos de teste para a pasta Resultados/YanSimmer/ticket
+ - Copiando os Includes/fila.h Includes/software.h Includes/ticket.h do professor para a pasta Resultados/YanSimmer/ticket
+ - Copiando os Includes/*.o do professor para a pasta Resultados/YanSimmer/ticket
+ - Removendo o ticket.o do professor da pasta Resultados/YanSimmer/ticket
+ - Copiando o Respostas/YanSimmer/ticket.c do aluno para a pasta Resultados/YanSimmer/ticket
+ - Pasta software:
+ - Copiando os Casos de teste para a pasta Resultados/YanSimmer/software
+ - Copiando os Includes/fila.h Includes/software.h Includes/ticket.h do professor para a pasta Resultados/YanSimmer/software
+ - Copiando os Includes/*.o do professor para a pasta Resultados/YanSimmer/software
+ - Removendo o software.o do professor da pasta Resultados/YanSimmer/software
+ - Copiando o Respostas/YanSimmer/software.c do aluno para a pasta Resultados/YanSimmer/software
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Erro de compilação! Verifique os arquivos da pasta main.
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/YanSimmer/completo/result_compilation.txt
+ - Erro de compilação! Verifique os arquivos da pasta fila.
+ - Compilação dos arquivos do aluno na pasta ticket ok!
+ - Arquivo de output gerado: Resultados/YanSimmer/ticket/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta software ok!
+ - Arquivo de output gerado: Resultados/YanSimmer/software/result_compilation.txt
+ - Arquivos Compilados: Erro!: 2 arquivos com erros de compilacao.
+
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/YanSimmer/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/YanSimmer/completo/result_linking.txt
+ - Pasta fila:
+ - Gerando o binário prog linkando com o(s) arquivo(s) fila/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/YanSimmer/fila/result_linking.txt
+ - Pasta ticket:
+ - Gerando o binário prog linkando com o(s) arquivo(s) ticket/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/YanSimmer/ticket/result_linking.txt
+ - Pasta software:
+ - Gerando o binário prog linkando com o(s) arquivo(s) software/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/YanSimmer/software/result_linking.txt
+ - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 8:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 7.50) - 0 de 80 - 0% de 7.50: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 8:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 0.0) - 0 de 80 - 0% de 0.0: 0.
+ -----
+ - Pasta fila / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 8:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta fila (máximo 1.00) - 0 de 80 - 0% de 1.00: 0.
+ -----
+ - Pasta ticket / Caso 1:
+ - Arquivo de output gerado: Resultados/YanSimmer/ticket/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 33, frees: 33, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta ticket / Caso 2:
+ - Arquivo de output gerado: Resultados/YanSimmer/ticket/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 37, frees: 37, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta ticket / Caso 3:
+ - Arquivo de output gerado: Resultados/YanSimmer/ticket/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 60, frees: 60, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta ticket / Caso 4:
+ - Arquivo de output gerado: Resultados/YanSimmer/ticket/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 58, frees: 58, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta ticket / Caso 5:
+ - Arquivo de output gerado: Resultados/YanSimmer/ticket/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 66, frees: 66, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta ticket / Caso 6:
+ - Arquivo de output gerado: Resultados/YanSimmer/ticket/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 101, frees: 101, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta ticket / Caso 7:
+ - Arquivo de output gerado: Resultados/YanSimmer/ticket/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 68, frees: 68, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta ticket / Caso 8:
+ - Arquivo de output gerado: Resultados/YanSimmer/ticket/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 69, frees: 69, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta ticket (máximo 1.00) - 80.00 de 80 - 100.00% de 1.00: 1.00.
+ -----
+ - Pasta software / Caso 1:
+ - Arquivo de output gerado: Resultados/YanSimmer/software/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 33, frees: 33, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta software / Caso 2:
+ - Arquivo de output gerado: Resultados/YanSimmer/software/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 37, frees: 37, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta software / Caso 3:
+ - Arquivo de output gerado: Resultados/YanSimmer/software/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 60, frees: 60, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta software / Caso 4:
+ - Arquivo de output gerado: Resultados/YanSimmer/software/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 58, frees: 58, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta software / Caso 5:
+ - Arquivo de output gerado: Resultados/YanSimmer/software/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 66, frees: 66, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta software / Caso 6:
+ - Arquivo de output gerado: Resultados/YanSimmer/software/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 101, frees: 101, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta software / Caso 7:
+ - Arquivo de output gerado: Resultados/YanSimmer/software/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 68, frees: 68, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta software / Caso 8:
+ - Arquivo de output gerado: Resultados/YanSimmer/software/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 69, frees: 69, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta software (máximo 0.50) - 80.00 de 80 - 100.00% de 0.50: .50.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: YanSimmer
+ - Arquivos Esperados Corretos: 5 de 7
+ - Pastas Compiladas Corretamente: 3 de 5 
+ - Pastas Linkadas Corretamente: 2 de 5
+ - Teste main
+ - Resultados corretos: 0 de 8
+ - Valgrinds corretos: 0 de 8
+ - Nota de YanSimmer para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 8
+ - Valgrinds corretos: 0 de 8
+ - Nota de YanSimmer para o teste completo: 0
+ - Teste fila
+ - Resultados corretos: 0 de 8
+ - Valgrinds corretos: 0 de 8
+ - Nota de YanSimmer para o teste fila: 0
+ - Teste ticket
+ - Resultados corretos: 8 de 8
+ - Valgrinds corretos: 8 de 8
+ - Nota de YanSimmer para o teste ticket: 1.00
+ - Teste software
+ - Resultados corretos: 8 de 8
+ - Valgrinds corretos: 8 de 8
+ - Nota de YanSimmer para o teste software: .50
+ - Nota de YanSimmer: 0+(0)+(1.00)+(0)+(0)+(.50)
+ - Nota de YanSimmer: 1.50
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

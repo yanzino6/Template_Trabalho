@@ -1,0 +1,15 @@
+==78800== Memcheck, a memory error detector
+==78800== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==78800== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==78800== Command: Resultados/YanSimmer/ticket/prog Resultados/YanSimmer/ticket/Casos/5
+==78800== Parent PID: 78799
+==78800== 
+==78800== 
+==78800== HEAP SUMMARY:
+==78800==     in use at exit: 0 bytes in 0 blocks
+==78800==   total heap usage: 66 allocs, 66 frees, 14,624 bytes allocated
+==78800== 
+==78800== All heap blocks were freed -- no leaks are possible
+==78800== 
+==78800== For lists of detected and suppressed errors, rerun with: -s
+==78800== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
