@@ -1,15 +1,15 @@
-==78908== Memcheck, a memory error detector
-==78908== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==78908== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==78908== Command: Resultados/YanSimmer/ticket/prog Resultados/YanSimmer/ticket/Casos/6
-==78908== Parent PID: 78907
-==78908== 
-==78908== 
-==78908== HEAP SUMMARY:
-==78908==     in use at exit: 0 bytes in 0 blocks
-==78908==   total heap usage: 101 allocs, 101 frees, 17,328 bytes allocated
-==78908== 
-==78908== All heap blocks were freed -- no leaks are possible
-==78908== 
-==78908== For lists of detected and suppressed errors, rerun with: -s
-==78908== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==69869== Memcheck, a memory error detector
+==69869== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69869== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==69869== Command: Resultados/YanSimmer/ticket/prog Resultados/YanSimmer/ticket/Casos/6
+==69869== Parent PID: 69868
+==69869== 
+==69869== 
+==69869== HEAP SUMMARY:
+==69869==     in use at exit: 0 bytes in 0 blocks
+==69869==   total heap usage: 101 allocs, 101 frees, 17,328 bytes allocated
+==69869== 
+==69869== All heap blocks were freed -- no leaks are possible
+==69869== 
+==69869== For lists of detected and suppressed errors, rerun with: -s
+==69869== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
