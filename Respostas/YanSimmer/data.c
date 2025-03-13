@@ -6,7 +6,7 @@
 struct Data{
     int dia;
     int mes;
-    int ano
+    int ano;
 };
 
 Data *criaData(int dia, int mes, int ano)
