@@ -116,6 +116,6 @@ void *getDadosPessoa(Pessoa *p)
 
 void setDadosPessoa(Pessoa *p, void *dados) {
     if (p != NULL) {
-        p->data = dados; // Atribui os dados específicos ao campo interno
+        p->data = dados; 
     }
 }

@@ -9,7 +9,7 @@ void leTecnico(Pessoa *p);
 
 void desalocaTecnico(void *t);
 
-char getTipoTecnico(void *t);
+char getTipoTecnico();
 
 int getHorasDispTecnico(Tecnico *t);
 

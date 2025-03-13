@@ -46,7 +46,7 @@ void desalocaTecnico(void *t)
     free(libera);
 }
 
-char getTipoTecnico(void *t)
+char getTipoTecnico()
 {
     return 'T';
 }
