@@ -1,11 +1,11 @@
 #ifndef _TECNICO_H
 #define _TECNICO_H
-
+#include "pessoa.h"
 typedef struct Tecnico Tecnico;
 
 Tecnico *criaTecnico(char *atuacao,int horasDisp,float salario);
 
-Tecnico *leTecnico();
+void leTecnico(Pessoa *p);
 
 void desalocaTecnico(void *t);
 

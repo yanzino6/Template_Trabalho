@@ -20,18 +20,24 @@ Tecnico *criaTecnico(char *atuacao,int horasDisp,float salario)
     return created;
 }
 
-Tecnico *leTecnico()
-{
+void leTecnico(Pessoa *p)
+{   
+    
+
     char atuacao[6];
     float salario;
     int horasDisp;
     
-    scanf("%[ˆ\n]\n",atuacao);
+    scanf("%[^\n]\n", atuacao);
     scanf("%d\n",&horasDisp);
     scanf("%f\n",&salario);
 
-    Tecnico *read= criaTecnico(atuacao,horasDisp,salario);
-    return read;
+    Tecnico *t = criaTecnico(atuacao, horasDisp, salario);
+
+    
+    setDadosPessoa(p, t);
+    
+    
 }
 
 void desalocaTecnico(void *t)

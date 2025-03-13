@@ -11,9 +11,9 @@ struct Pessoa{
     char genero[MAX_TAM_GEN];
     void *data;
     func_ptr_imprime printaPessoa;
-    func_ptr_desaloca desalocaPessoa;
+    func_ptr_desaloca desalocaP;
     func_ptr_tipo tipoPessoa;
-    func_ptr_leitura leituraPessoa;
+    
 };
 
 Pessoa *criaPessoa(char *nome, char *cpf, char *genero, char *telefone)
@@ -43,7 +43,7 @@ void imprimePessoa(Pessoa *p)
     imprimeData(p->dataNasc);
     printf("- Telefone: %s\n",p->tel);
     printf("- Genero: %s\n",p->genero);
-    p->printaPessoa(p);
+    p->printaPessoa(p->data);
 }
 
 //TAHM KENCH
@@ -59,11 +59,11 @@ Pessoa *lePessoa()
     Data *dataNasc;
     char genero[MAX_TAM_GEN];
     
-    scanf("%[ˆ\n]\n",nome);
-    scanf("%[ˆ\n]\n",cpf);
-    dataNasc=leData();
-    scanf("%[ˆ\n]\n",tel);
-    scanf("%[ˆ\n]\n",genero);
+    scanf("%[^\n]\n", nome);  
+    scanf("%[^\n]\n", cpf);   
+    dataNasc = leData();      
+    scanf("%[^\n]\n", tel);   
+    scanf("%[^\n]\n", genero); 
     
     Pessoa *p=criaPessoa(nome,cpf,genero,tel);
     p->dataNasc=dataNasc;
@@ -73,7 +73,8 @@ Pessoa *lePessoa()
 void desalocaPessoa(Pessoa *p)
 {
     desalocaData(p->dataNasc);
-    p->desalocaPessoa(p);
+    p->desalocaP(p->data);
+    free(p);
 }
 
 char *getCPFPessoa(Pessoa *p)
@@ -103,12 +104,18 @@ char getTipoPessoa(Pessoa *p)
 
 void setaFuncsPessoa(Pessoa *p,func_ptr_desaloca desaloca,func_ptr_imprime imprime,func_ptr_tipo tipo)
 {
-    p->desalocaPessoa=desaloca;
+    p->desalocaP=desaloca;
     p->printaPessoa=imprime;
     p->tipoPessoa=tipo;
 }
 
-void leDadosPessoa(Pessoa *p)
+void *getDadosPessoa(Pessoa *p)
 {
-    p->leituraPessoa();
+    return p->data;
+}
+
+void setDadosPessoa(Pessoa *p, void *dados) {
+    if (p != NULL) {
+        p->data = dados; // Atribui os dados específicos ao campo interno
+    }
 }
