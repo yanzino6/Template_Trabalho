@@ -5,3 +5,8 @@ principal: *.o
 
 geraos: *.c
 	gcc -c *.c
+
+clean:
+	rm -rf *.o main
+
+
