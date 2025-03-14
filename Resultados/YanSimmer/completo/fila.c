@@ -52,7 +52,7 @@ void desalocaFila(Fila *f)
 void insereTicketFila(Fila *f, char *cpfSol, void *dado, func_ptr_tempoEstimado getTempo,
                       func_ptr_tipo getTipo, func_ptr_notifica notifica, func_ptr_desaloca desaloca)
                       {
-                        char id[7];
+                        char id[10];
                         sprintf(id,"Tick-%d",f->nTickets+1);
                         if (f->nTickets==f->cap)
                         {

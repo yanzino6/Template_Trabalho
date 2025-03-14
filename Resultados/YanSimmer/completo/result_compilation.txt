@@ -1,0 +1,14 @@
+fila.c: In function ‘insereTicketFila’:
+fila.c:56:42: warning: ‘%d’ directive writing between 1 and 11 bytes into a region of size 5 [-Wformat-overflow=]
+   56 |                         sprintf(id,"Tick-%d",f->nTickets+1);
+      |                                          ^~
+fila.c:56:36: note: directive argument in the range [-2147483647, 2147483647]
+   56 |                         sprintf(id,"Tick-%d",f->nTickets+1);
+      |                                    ^~~~~~~~~
+fila.c:56:25: note: ‘sprintf’ output between 7 and 17 bytes into a destination of size 10
+   56 |                         sprintf(id,"Tick-%d",f->nTickets+1);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+usuario.c: In function ‘adicionaTick’:
+usuario.c:58:1: warning: control reaches end of non-void function [-Wreturn-type]
+   58 | }
+      | ^

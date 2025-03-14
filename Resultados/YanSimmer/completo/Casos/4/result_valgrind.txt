@@ -1,0 +1,34 @@
+==11157== Memcheck, a memory error detector
+==11157== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==11157== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==11157== Command: Resultados/YanSimmer/completo/prog Resultados/YanSimmer/completo/Casos/4
+==11157== Parent PID: 11156
+==11157== 
+==11157== 
+==11157== Process terminating with default action of signal 6 (SIGABRT)
+==11157==    at 0x4908B2C: __pthread_kill_implementation (pthread_kill.c:44)
+==11157==    by 0x4908B2C: __pthread_kill_internal (pthread_kill.c:78)
+==11157==    by 0x4908B2C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==11157==    by 0x48AF27D: raise (raise.c:26)
+==11157==    by 0x48928FE: abort (abort.c:79)
+==11157==    by 0x48937B5: __libc_message_impl.cold (libc_fatal.c:134)
+==11157==    by 0x49A0C18: __fortify_fail (fortify_fail.c:24)
+==11157==    by 0x49A1EA3: __stack_chk_fail (stack_chk_fail.c:24)
+==11157==    by 0x10A909: leUsuario (in /home/yan-simmer/Documents/Prog II/Template_Trabalho/Resultados/YanSimmer/completo/prog)
+==11157==    by 0x109741: main (in /home/yan-simmer/Documents/Prog II/Template_Trabalho/Resultados/YanSimmer/completo/prog)
+==11157== 
+==11157== HEAP SUMMARY:
+==11157==     in use at exit: 4,316 bytes in 4 blocks
+==11157==   total heap usage: 4 allocs, 0 frees, 4,316 bytes allocated
+==11157== 
+==11157== LEAK SUMMARY:
+==11157==    definitely lost: 0 bytes in 0 blocks
+==11157==    indirectly lost: 0 bytes in 0 blocks
+==11157==      possibly lost: 0 bytes in 0 blocks
+==11157==    still reachable: 4,316 bytes in 4 blocks
+==11157==         suppressed: 0 bytes in 0 blocks
+==11157== Reachable blocks (those to which a pointer was found) are not shown.
+==11157== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11157== 
+==11157== For lists of detected and suppressed errors, rerun with: -s
+==11157== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
